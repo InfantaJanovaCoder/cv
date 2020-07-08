@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson of InputType</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <label for="GET-name">Name:</label>
+        <input id="GET-name" type="text" name="name">
+        <input type="submit" value="Save">
+    </form>
+    <br>
+    <br>
+    <form>
+        <label>input type button:</label>
+        <input type="button" name="" value="save">
+        <br>
+        <br>
+        <label>input type checkbox:</label>
+        <input type="checkbox" name="" value="">
+        <!--it is the checkbox it is used to check the value-->
+        <br>
+        <br>
+        <label>input type color:</label>
+        <input type="color" name=" color " value="#030303">
+        <!--it is the colour box  which can use to choose the colour-->
+        <br>
+        <br>
+        <label>input type date:</label>
+        <input type="date" name="" value="">
+        <!--it is use to choose the date-->
+        <br>
+        <br>
+        <label>input type datetime:</label>
+        <input type="datetime" name="" value="">
+        <!--it is the text which can enter the date  value in textbox-->
+        <br>
+        <br>
+        <label>input type datetime-local:</label>
+        <input type="datetime-local" name="" value="">
+        <br>
+        <br>
+        <label>input type email_text:</label>
+        <!--it's only allows emailid -->
+        <input type="email" size="30" placeholder="sophie@example.com">
+        <!--placeholder is the deflaut element holder-->
+        <br>
+        <br>
+        <label>Choose file to upload::</label>
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .doc, .txt, .html, .java,">
+        <!--its tis accpect file -->
+        <!--accect is means to accepet the file formate-->
+        <br>
+        <br>
+        <label>input type password_text:</label>
+        <!--it's only allows password -->
+        <input type="password" size="30" placeholder="S@3123SfsnfskSE123">
+        <!--placeholder is the deflaut element holder-->
+        <br>
+        <br>
+        <label>input type is range </label>
+        <input type="range" list="marks" size="30">
+        <datalist id="marks">
+            <option value="0" label="0%"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50" label="50%"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100" label="100%"></option>
+        </datalist>
+        <p>Please select your preferred contact method:</p>
+        <input type="radio" id="contactChoice1" name="contact" value="email" checked>
+        <label for="contactChoice1">Email</label>
+        <input type="radio" id="contactChoice2" name="contact" value="phone">
+        <label for="contactChoice2">Phone</label>
+        <input type="radio" id="contactChoice3" name="contact" value="mail">
+        <label for="contactChoice3">Mail</label>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <label>input type reset:</label>
+        <input type="reset">
+        <!--<input type="reset"> buttons are used to reset forms. -->
+        <br>
+        <br>
+        <label>input type for telephone number:</label>
+        <input type="tel" placeholder="12345-67890">
+        <!--its used to type the phone number-->
+        <br>
+        <br>
+        <label>input type submit:</label>
+        <input type="submit">
+        <!--it's used to type sumbit -->
+        <label>input type is time:</label>
+        <input type="time">
+        <br>
+        <br>
+        <label>input type hidden:</label>
+        <input type="hidden">
+        <br>
+        <br>
+        <label>input type image:</label>
+        <input type="image">
+        <br>
+        <br>
+        <label>input type url:</label>
+        <input type="url">
+        <br>
+        <br>
+        <label>input type week:</label>
+        <input type="week">
+        <br>
+        <br>
+    </form>
+</body>
+
+</html>
